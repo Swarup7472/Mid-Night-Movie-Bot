@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
+API_ID = int(environ.get('API_ID', '25738465'))
+API_HASH = environ.get('API_HASH', '2ac88904ca8a02aaf02c7dcdf2898fa0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7651386987:AAEj7JGMXy56ODiYdz0ALvV89Pjj503ktJs')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7287034394').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/askmeyaaar") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002303284863'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/AtoZFilmss')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002460751147').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbots.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mid-night:mid-night@midnight.m4wsr.mongodb.net/?retryWrites=true&w=majority&appName=Midnight")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Midnight")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -46,12 +46,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "08125cf6828a786c374a7bc90f64cdc7dc7733be")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arlinks.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "08125cf6828a786c374a7bc90f64cdc7dc7733be")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'arlinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "08125cf6828a786c374a7bc90f64cdc7dc7733be")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'arlinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -73,7 +73,7 @@ FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
-REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
+REACTIONS = ["👀", "😱", "🔥", "😍", "😈", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
