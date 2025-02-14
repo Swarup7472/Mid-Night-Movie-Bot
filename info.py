@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7651386987:AAEj7JGMXy56ODiYdz0ALvV89Pjj503
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7287034394').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/askmeyaaar") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002382760272'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+2iADC7CPR6Q4ZWE1')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/AtoZfilmss')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002283911005').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -35,7 +35,7 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/AtoZFilmssGroup')
+auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/AtoZfilmss')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
@@ -68,7 +68,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://lh3.googleusercontent.com/pw/AP1GczMUleITjyWaR39iPDDgyfyoEvOt-m9b0AS1Extqjtml5Cz360LjQWZVe2e9jewN4DIb5lx9HtNs3cBxXqRoVVuwiFLC1PRXXvxCivDw_vpHnfq7LS6FJISe1db0W9DOVUU4KMUbxjHfKWW7_q7r2g8q=w642-h641-s-no-gm?authuser=0')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
